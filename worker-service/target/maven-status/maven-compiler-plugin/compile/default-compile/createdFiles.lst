@@ -1,0 +1,6 @@
+com\example\worker\Application.class
+com\example\worker\dto\SolicitacaoMessage.class
+com\example\worker\config\RabbitMQConfig.class
+com\example\worker\service\ProcessadorService.class
+com\example\worker\dto\RespostaMessage.class
+com\example\worker\listener\SolicitacaoListener.class

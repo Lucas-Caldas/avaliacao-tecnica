@@ -1,0 +1,6 @@
+C:\Users\Lucas Caldas\Documents\avaliacao-tecnica\worker-service\src\main\java\com\example\worker\Application.java
+C:\Users\Lucas Caldas\Documents\avaliacao-tecnica\worker-service\src\main\java\com\example\worker\dto\RespostaMessage.java
+C:\Users\Lucas Caldas\Documents\avaliacao-tecnica\worker-service\src\main\java\com\example\worker\dto\SolicitacaoMessage.java
+C:\Users\Lucas Caldas\Documents\avaliacao-tecnica\worker-service\src\main\java\com\example\worker\service\ProcessadorService.java
+C:\Users\Lucas Caldas\Documents\avaliacao-tecnica\worker-service\src\main\java\com\example\worker\config\RabbitMQConfig.java
+C:\Users\Lucas Caldas\Documents\avaliacao-tecnica\worker-service\src\main\java\com\example\worker\listener\SolicitacaoListener.java

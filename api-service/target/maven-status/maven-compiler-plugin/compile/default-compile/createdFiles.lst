@@ -1,0 +1,14 @@
+com\api\docs\SolicitacaoApiDoc.class
+com\api\listener\RespostaListener.class
+com\api\dto\ErroValidacaoResponse.class
+com\api\repository\SolicitacaoRepository.class
+com\api\config\RabbitMQConfig.class
+com\api\service\SolicitacaoService.class
+com\api\config\OpenApiConfig.class
+com\api\dto\SolicitacaoRequest.class
+com\api\model\Solicitacao.class
+com\api\dto\SolicitacaoResponse.class
+com\api\handler\GenericExceptionHandler.class
+com\api\controller\SolicitacaoController.class
+com\api\dto\RespostaMessage.class
+com\api\Application.class
