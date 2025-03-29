@@ -9,6 +9,7 @@ import com.api.service.SolicitacaoService;
 import jakarta.validation.Valid;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.BindingResult;
+import org.springframework.validation.ObjectError;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -33,7 +34,7 @@ public class SolicitacaoController implements SolicitacaoApiDoc {
     @PostMapping
     public ResponseEntity<?> criarSolicitacao(@Valid @RequestBody SolicitacaoRequest request, BindingResult bindingResult) {
         if (bindingResult.hasErrors()) {
-            return ResponseEntity.badRequest().body(new ErroValidacaoResponse("Erro na validação", bindingResult.getAllErrors()));
+            return ResponseEntity.badRequest().body(new ErroValidacaoResponse("Erro na validação", bindingResult.getAllErrors().stream().map(ObjectError::getDefaultMessage).toList() ));
         }
 
         SolicitacaoResponse response = solicitacaoService.processarNovaSolicitacao(request);
