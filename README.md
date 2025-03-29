@@ -14,7 +14,7 @@ O **CEP Protocol Service** é uma solução baseada em microserviços que permit
 - **RabbitMQ** (mensageria)
 - **PostgreSQL** (banco de dados relacional)
 - **Docker e Docker Compose** (containerização e orquestração)
-- **ViaCEP API** (consulta de CEP externo)
+- **ViaCEP API** (consulta de CEP externo) → [Acesse aqui](https://viacep.com.br/#:~:text=Pesquisa%20de%20CEP,ser%C3%A1%20a%20precis%C3%A3o%20do%20resultado.&text=Os%20exemplos%20acima%20demonstram%20diferentes,um%20400%20(Bad%20Request).)
 - **Swagger UI** (documentação interativa) → [Acesse aqui](http://localhost:8080/swagger-ui/index.html)
 
 ## ⚙️ Pré-requisitos
@@ -175,8 +175,7 @@ Os testes incluem:
 ## 📞 Contato
 
 📌 **Nome:** Lucas Caldas\
-📧 **E-mail:** [caldas.oliva@gmail.com](mailto\:caldas.oliva@gmail.com)\
-📱 **Telefone/WhatsApp:** (61) 99311-4809\
-🔗 **LinkedIn:** [linkedin.com/in/lucas-caldas-69869094](https://linkedin.com/in/lucas-caldas-69869094)
+📧 **[E-mail](mailto\:caldas.oliva@gmail.com) :** caldas.oliva@gmail.com\
+🔗 **[linkedin](https://linkedin.com/in/lucas-caldas-69869094):**
 
 
