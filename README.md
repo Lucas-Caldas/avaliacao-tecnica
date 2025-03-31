@@ -148,7 +148,6 @@ mvn test
 Os testes incluem:
 
 - **Testes unitários** para os serviços e repositórios, utilizando **JUnit 5** e **Mockito** para mock de dependências.
-- **Testes de integração**, garantindo a comunicação correta entre os componentes do sistema.
 - **Teste de performance**, executado via **Postman**, conforme descrito no documento anexado (`teste_performace_postman.pdf`).
 
 ---
