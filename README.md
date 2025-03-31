@@ -76,7 +76,7 @@ Após a execução, os serviços estarão disponíveis em:
 
 ```json
 {
-  "cep": "70002900"
+  "cep": "73370059"
 }
 ```
 
@@ -100,17 +100,9 @@ Após a execução, os serviços estarão disponíveis em:
 {
   "id": 408,
   "protocolo": "550e8400-e29b-41d4-a716-446655440000",
-  "cep": "70002900",
+  "cep": "73370059",
   "status": "PROCESSADO",
-  "dadosApiExterna": {
-    "cep": "70722-500",
-    "logradouro": "Quadra CLN 102",
-    "bairro": "Asa Norte",
-    "localidade": "Brasília",
-    "uf": "DF",
-    "ibge": "5300108",
-    "ddd": "61"
-  },
+  "dadosApiExterna": "{\n  \"cep\": \"73370-059\",\n  \"logradouro\": \"Conjunto Residencial 59\",\n  \"complemento\": \"\",\n  \"unidade\": \"\",\n  \"bairro\": \"Vale do Amanhecer (Planaltina)\",\n  \"localidade\": \"Brasília\",\n  \"uf\": \"DF\",\n  \"estado\": \"Distrito Federal\",\n  \"regiao\": \"Centro-Oeste\",\n  \"ibge\": \"5300108\",\n  \"gia\": \"\",\n  \"ddd\": \"61\",\n  \"siafi\": \"9701\"\n},
   "timestampProcessamento": "2023-05-20T10:32:15Z",
   "dataCriacao": "2025-03-28T22:15:48.63116",
   "dataAtualizacao": "2025-03-28T22:15:49.112424"
@@ -156,5 +148,5 @@ Os testes incluem:
 
 📌 **Nome:** Lucas Caldas\
 📧 **[E-mail](mailto\:caldas.oliva@gmail.com)**\*\* :\*\* [caldas.oliva@gmail.com](mailto\:caldas.oliva@gmail.com)\
-👉 [**LinkedIn**](https://linkedin.com/in/lucas-caldas-69869094)**\*\*\*\*\*\*\*\*\*\*\*\***
+👉 [**LinkedIn**](https://linkedin.com/in/lucas-caldas-69869094)
 
