@@ -15,7 +15,7 @@ O **Avaliação Técnica** é uma solução baseada em microserviços que permit
 - **PostgreSQL** (banco de dados relacional)
 - **Docker e Docker Compose** (containerização e orquestração)
 - **ViaCEP API** (consulta de CEP externo) → [Acesse aqui](https://viacep.com.br/#:~\:text=Pesquisa%20de%20CEP,ser%C3%A1%20a%20precis%C3%A3o%20do%20resultado.\&text=Os%20exemplos%20acima%20demonstram%20diferentes,um%20400%20\(Bad%20Request\).)
-- **Swagger UI** (documentação interativa) → [Acesse aqui](http://localhost:8080/swagger-ui/index.html)
+- **Swagger UI** (documentação interativa - apenas quando estiver rodando a aplicação) → [Acesse aqui](http://localhost:8080/swagger-ui/index.html)
 
 ## ⚙️ Pré-requisitos
 
@@ -152,7 +152,7 @@ Os testes incluem:
 
 ---
 
-## 💁️ Contato
+##  Contato
 
 📌 **Nome:** Lucas Caldas\
 📧 **[E-mail](mailto\:caldas.oliva@gmail.com)**\*\* :\*\* [caldas.oliva@gmail.com](mailto\:caldas.oliva@gmail.com)\
