@@ -2,19 +2,19 @@
 
 ## 📌 Visão Geral
 
-O **CEP Protocol Service** é uma solução baseada em microserviços que permite processar solicitações de CEP de forma assíncrona. O sistema é composto por dois serviços principais:
+O **Avaliação Técnica** é uma solução baseada em microserviços que permite processar solicitações de CEP de forma assíncrona. O sistema é composto por dois serviços principais:
 
 - **api-service**: Responsável por receber as solicitações de CEP, gerar um protocolo, armazenar a requisição e atualizar as informações do CEP após o processamento.
 - **worker-service**: Consome as solicitações da fila, consulta a API ViaCEP e retorna os resultados via fila para o **api-service**, que então atualiza os registros no banco de dados.
 
-## 🛠 Tecnologias Utilizadas
+## 🛠️ Tecnologias Utilizadas
 
 - **Java 17**
 - **Spring Boot**
 - **RabbitMQ** (mensageria)
 - **PostgreSQL** (banco de dados relacional)
 - **Docker e Docker Compose** (containerização e orquestração)
-- **ViaCEP API** (consulta de CEP externo) → [Acesse aqui](https://viacep.com.br/#:~:text=Pesquisa%20de%20CEP,ser%C3%A1%20a%20precis%C3%A3o%20do%20resultado.&text=Os%20exemplos%20acima%20demonstram%20diferentes,um%20400%20(Bad%20Request).)
+- **ViaCEP API** (consulta de CEP externo) → [Acesse aqui](https://viacep.com.br/#:~\:text=Pesquisa%20de%20CEP,ser%C3%A1%20a%20precis%C3%A3o%20do%20resultado.\&text=Os%20exemplos%20acima%20demonstram%20diferentes,um%20400%20\(Bad%20Request\).)
 - **Swagger UI** (documentação interativa) → [Acesse aqui](http://localhost:8080/swagger-ui/index.html)
 
 ## ⚙️ Pré-requisitos
@@ -66,9 +66,9 @@ Após a execução, os serviços estarão disponíveis em:
 
 ---
 
-## 📡 Endpoints da API
+## 💽 Endpoints da API
 
-### **1️⃣ Criar uma solicitação de CEP**
+### **1⃣ Criar uma solicitação de CEP**
 
 `POST /solicitacoes`
 
@@ -90,7 +90,7 @@ Após a execução, os serviços estarão disponíveis em:
 }
 ```
 
-### **2️⃣ Consultar o status e resultado da solicitação**
+### **2⃣ Consultar o status e resultado da solicitação**
 
 `GET /api/cep/{protocolo}`
 
@@ -127,18 +127,17 @@ Após a execução, os serviços estarão disponíveis em:
 
 ---
 
-## 🧪 Cobertura de Testes
+## 🥾 Cobertura de Testes
 
 O projeto conta com testes automatizados para garantir a confiabilidade do sistema.
 
-### 📌 Tecnologias de Teste Utilizadas
+### 📈 Tecnologias de Teste Utilizadas
 
 - **JUnit 5**
 - **Mockito**
+- **Postman** (teste de performance)
 
-
-
-### 📈 Como Executar os Testes
+### 📊 Como Executar os Testes
 
 Para rodar os testes automatizados, execute:
 
@@ -148,34 +147,15 @@ mvn test
 
 Os testes incluem:
 
-- Testes unitários para os serviços e repositórios
-
-
-
----
-
-## 📁 Estrutura do Projeto
-
-```
-/avaliacao-tecnica
-  /api-service
-    /src/main/resources
-      application.properties
-    Dockerfile
-  /worker-service
-    /src/main/resources
-      application.properties
-    Dockerfile
-  /docker-compose.yml
-  /README.md
-```
+- **Testes unitários** para os serviços e repositórios, utilizando **JUnit 5** e **Mockito** para mock de dependências.
+- **Testes de integração**, garantindo a comunicação correta entre os componentes do sistema.
+- **Teste de performance**, executado via **Postman**, conforme descrito no documento anexado (`teste_performace_postman.pdf`).
 
 ---
 
-## 📞 Contato
+## 💁️ Contato
 
 📌 **Nome:** Lucas Caldas\
-📧 **[E-mail](mailto\:caldas.oliva@gmail.com) :** caldas.oliva@gmail.com\
-🔗 **[linkedin](https://linkedin.com/in/lucas-caldas-69869094):**
-
+📧 **[E-mail](mailto\:caldas.oliva@gmail.com)**\*\* :\*\* [caldas.oliva@gmail.com](mailto\:caldas.oliva@gmail.com)\
+👉 [**LinkedIn**](https://linkedin.com/in/lucas-caldas-69869094)**\*\*\*\*\*\*\*\*\*\*\*\***
 
